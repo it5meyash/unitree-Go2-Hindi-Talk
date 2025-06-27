@@ -1,3 +1,4 @@
 cyclonedds/
 vosk-model-hi-0.22.zip
 example/voice_controlled_teleop/large_model/
+myenv/
