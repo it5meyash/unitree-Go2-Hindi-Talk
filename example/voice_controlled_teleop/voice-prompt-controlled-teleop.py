@@ -49,7 +49,6 @@ class TeleopRobot:
         self.give_hand_command = ["हाथ", "हाथ दो", "हाथ मिलाओ"]
         self.jump_forward_command = ["कूद", "आगे कूद"]
         self.stop_program_command = ["रुको", "बंद करो", "ठहरो"]
-        self.twerking_command = ["गांड हिलाओ", "गांड"]
 
 
         # Create a sport client
