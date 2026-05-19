@@ -49,6 +49,7 @@ class TeleopRobot:
         self.give_hand_command = ["हाथ", "हाथ दो", "हाथ मिलाओ"]
         self.jump_forward_command = ["कूद", "आगे कूद"]
         self.stop_program_command = ["रुको", "बंद करो", "ठहरो"]
+        self.twerking_command = ["नाचो", "डांस करो"]
 
 
         # Create a sport client
@@ -64,7 +65,7 @@ class TeleopRobot:
         self.voice_command_thread.start()
 
     def voice_command_loop(self):
-        model = Model('example/voice_controlled_teleop/large_model')
+        model = Model('models/vosk-model-hi-0.22')
         rec = KaldiRecognizer(model, 16000)  # Use the correct sample rate
         with sd.RawInputStream(samplerate=16000, blocksize=8000, dtype="int16", channels=1, callback=callback):
             while True:
