@@ -1,4 +1,38 @@
-cyclonedds/
-vosk-model-hi-0.22.zip
-example/voice_controlled_teleop/large_model/
+# Environments
 myenv/
+env/
+venv/
+.env
+
+# Large Models & Artifacts
+models/
+vosk-model-hi-0.22.zip
+
+# Nested Repositories
+cyclonedds/
+
+# Python Cache & Packaging
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
